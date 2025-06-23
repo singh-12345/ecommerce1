@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "poppins";
+}
+
+.bg{
+  background: url('./assets/bg-images.jpg');
+  background-size: cover;
+  height: 70vh;
+}
